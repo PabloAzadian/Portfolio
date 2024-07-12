@@ -6,6 +6,7 @@ function App() {
     <div className="App">
       Pablo Azadian
       Front End Web Developer
+      Skills:
     </div>
   );
 }
