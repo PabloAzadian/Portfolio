@@ -1,13 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+  import './App.css';
+import Navbar from './Components/Navbar/Navbar';
+import { ThemeProvider } from "./ThemeContext"
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <div className="App">
-      Pablo Azadian
-      Front End Web Developer
-      Skills:
-    </div>
+    <ThemeProvider>
+      <div className="App">
+        <Navbar/>
+      </div>
+    </ThemeProvider>
   );
 }
 

@@ -1,4 +1,23 @@
-.App {
-  
+:root {
+    --main: #2D2E32;
+    --secondary: #ffffff;
+    --bg: #F9F9F9;
 }
 
+body.dark {
+    --main: #ffffff;
+    --secondary: #2D2E32;
+    --bg: #1a1a1a; /* Use a different background color for dark mode */
+}
+
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif !important;
+    background-color: var(--bg);
+    color: var(--main);
+}
+
+.App {
+    text-align: center;
+    
+}
