@@ -1,13 +1,14 @@
 :root {
     --main: #2D2E32;
-    --secondary: #ffffff;
-    --bg: #F9F9F9;
+    --secondary: #F9F9F9;
+    --bg: #ffffff;
+    
 }
 
 body.dark {
     --main: #ffffff;
     --secondary: #2D2E32;
-    --bg: #1a1a1a; /* Use a different background color for dark mode */
+    --bg: #000000; 
 }
 
 body {
@@ -19,5 +20,9 @@ body {
 
 .App {
     text-align: center;
-    
+    background-color: var(--bg);
 }
+    
+
+
+
