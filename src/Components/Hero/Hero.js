@@ -51,29 +51,33 @@ function Hero() {
             <div className='tech-stack-container'>
                 <h4>Tech Stack:</h4>
                 <div className='skill-icons-container'>
-                    <div className='skill'>
-                        <img src="https://skillicons.dev/icons?i=react" alt="React" className='skill-icon' />
-                        <p>React</p>
+                    <div className='d-flex flex-row'>
+                        <div className='skill'>
+                            <img src="https://skillicons.dev/icons?i=react" alt="React" className='skill-icon' />
+                            <p>React</p>
+                        </div>
+                        <div className='skill'>
+                            <img src="https://skillicons.dev/icons?i=js" alt="JavaScript" className='skill-icon' />
+                            <p>JavaScript</p>
+                        </div>
+                        <div className='skill'>
+                            <img src="https://skillicons.dev/icons?i=html" alt="HTML" className='skill-icon' />
+                            <p>HTML</p>
+                        </div>
                     </div>
-                    <div className='skill'>
-                        <img src="https://skillicons.dev/icons?i=js" alt="JavaScript" className='skill-icon' />
-                        <p>JavaScript</p>
-                    </div>
-                    <div className='skill'>
-                        <img src="https://skillicons.dev/icons?i=html" alt="HTML" className='skill-icon' />
-                        <p>HTML</p>
-                    </div>
-                    <div className='skill'>
-                        <img src="https://skillicons.dev/icons?i=css" alt="CSS" className='skill-icon' />
-                        <p>CSS</p>
-                    </div>
-                    <div className='skill'>
-                        <img src="https://skillicons.dev/icons?i=bootstrap" alt="Bootstrap" className='skill-icon' />
-                        <p>Bootstrap</p>
-                    </div>
-                    <div className='skill'>
-                        <img src="https://skillicons.dev/icons?i=git" alt="Git" className='skill-icon' />
-                        <p>Git</p>
+                    <div className='d-flex flex-row'>
+                        <div className='skill'>
+                            <img src="https://skillicons.dev/icons?i=css" alt="CSS" className='skill-icon' />
+                            <p>CSS</p>
+                        </div>
+                        <div className='skill'>
+                            <img src="https://skillicons.dev/icons?i=bootstrap" alt="Bootstrap" className='skill-icon' />
+                            <p>Bootstrap</p>
+                        </div>
+                        <div className='skill'>
+                            <img src="https://skillicons.dev/icons?i=git" alt="Git" className='skill-icon' />
+                            <p>Git</p>
+                        </div>
                     </div>
                 </div>
 

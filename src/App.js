@@ -1,6 +1,7 @@
   import './App.css';
 import Navbar from './Components/Navbar/Navbar';
 import Hero from "./Components/Hero/Hero"
+import About from "./Components/About/About"
 import { ThemeProvider } from "./ThemeContext"
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -10,6 +11,7 @@ function App() {
       <div className="App">
         <Navbar/>
         <Hero/>
+        <About/>
       </div>
     </ThemeProvider>
   );
