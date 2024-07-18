@@ -124,3 +124,25 @@ input:checked + .slider:before {
         margin: 0;
     }
 }
+
+
+@media screen and (max-width: 492px) {
+    .switch{
+        width: 35px;
+        height: 20px;
+        margin: 0;
+    }
+    
+    .slider:before {
+        height: 13px;
+        width: 13px; 
+    }
+
+    input:checked + .slider:before {
+        transform: translateX(13px);
+    }
+
+    .icon {
+        font-size: 0.8rem; 
+    }
+}

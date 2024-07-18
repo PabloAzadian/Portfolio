@@ -8,6 +8,7 @@
     margin: auto;
     font-family: "Terminal", sans-serif;
     max-width: 70%;
+    
 }
 
 .about-text h2 {
@@ -21,7 +22,7 @@
     justify-content: space-between;
     gap: 1rem;
     color: var(--main);
-    background-color: var(--secondary);
+    background-color: var(--bg);
     border: 2px solid var(--main);
     padding: 0.5rem 1rem;
     border-radius: 20px 20px 0 0;
@@ -50,6 +51,39 @@
 .terminal-window {
     padding: 1rem;
     background-color: var(--main);
-    color: var(--secondary);
+    color: var(--bg);
     border-radius: 0 0 20px 20px;
+}
+
+
+@media screen and (max-width: 992px) {
+    .about-terminal {
+        max-width: 100%;
+        padding: 3rem 1rem;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .tab-route h4{
+        font-size: 1rem;
+    }
+
+    .tab-icons svg{
+        height: 12px;
+        width: 12px;
+    }
+}
+
+@media screen and (max-width: 492px){
+
+    .tab-route h4{
+        font-size: 0.7rem;
+    }
+
+    .tab-icons svg{
+        height: 10px;
+        width: 10px;
+    }
+
 }
