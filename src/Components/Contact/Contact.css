@@ -1,0 +1,70 @@
+.contact {
+    background-color: var(--secondary);
+    color: var(--main);
+}
+
+.contact-info {
+    padding: 2rem;
+}
+
+.contact-buttons {
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+     justify-content: center;
+     gap: 4rem;
+}
+
+.contact-buttons a {
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem;
+    border: 1px solid var(--main);
+    border-radius: 20px;
+    font-size: 20px;
+    line-height: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--main);
+    font-weight: 600;
+}
+
+.contact-buttons a svg{
+    text-decoration: none;
+    color: var(--main);
+    font-size:30px;
+    margin-right: 10px;
+}
+
+.contact-buttons a:hover {
+    transform: scale(1.1);
+    color: var(--secondary);
+    background-color: var(--main);
+}
+
+.contact-buttons a:hover svg {
+    color: var(--secondary);
+}
+
+@media  screen and (max-width: 768px) {
+    .contact-buttons{
+        gap: 2rem;
+    }
+
+    .contact-buttons a{
+        font-size: 15px;
+    }
+
+    
+}
+
+@media  screen and (max-width: 576px) {
+    .contact-buttons {
+        flex-direction: column;
+        padding: 2rem 0;
+    }
+
+    .contact-buttons a{
+        margin: auto;
+    }
+}
