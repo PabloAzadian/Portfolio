@@ -93,7 +93,7 @@ function Projects() {
                     <p>Developed a hardware store ecommerce platform using JavaScript and React. The platform features a clean
                     and responsive design, intuitive product search and filtering, a secure checkout process, and a comprehensive
                     user account management system. This project showcases my ability to build functional ecommerce solutions
-                    with efficient state management..
+                    with efficient state management.
                     </p>
 
                     <div className='links-container'>

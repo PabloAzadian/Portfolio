@@ -11,7 +11,7 @@
     display: flex;
     flex-direction: row;
     gap: 2rem;
-    max-width: 70%;
+    max-width: 80%;
     margin: auto;
     text-align: left;
     border: 2px solid var(--main);
@@ -33,6 +33,7 @@
     display: flex;
     flex-direction: row;
     gap: 2rem;
+    justify-content: space-between;
     margin-bottom: 1rem;
 }
 
@@ -70,6 +71,7 @@
     cursor: pointer;
     text-decoration: none;
     color: var(--main);
+    font-weight: 600;
 }
 
 
@@ -88,4 +90,60 @@
 
 .link-button:hover svg {
     color: var(--bg);
+}
+
+
+
+@media  screen and (max-width: 1200px) {
+
+    .header h2 {
+        font-size: 1.5rem;
+    }
+    
+}
+
+@media  screen and (max-width: 992px) {
+
+    .project {
+        max-width: 100%;
+    }
+    .header {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+
+@media  screen and (max-width: 768px) {
+    .project {
+        flex-direction: column;
+        
+    }
+
+    .header h2 {
+        text-align: center;
+    }
+
+    .technologies-container {
+        justify-content: center;
+    }
+
+    .links-container {
+        justify-content: center;
+    }
+
+    
+}
+
+
+@media  screen and (max-width: 435px) {
+    .link-button {
+        font-size: 10px;
+    }
+
+    .link-button svg {
+        font-size: 15px;
+    }
+    .technologie {
+        font-size: 12px;
+    }
 }
