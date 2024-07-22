@@ -83,8 +83,8 @@ function Hero() {
 
             </div>
             <div className='buttons-container'>
-                <button>My Projects</button>
-                <button>Contact Me</button>
+                <a href="#projects">My Projects</a>
+                <a href="#contact">Contact Me</a>
             </div>
         </div>
     </div>

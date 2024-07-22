@@ -6,6 +6,7 @@ import imageDark from "../../images/hero-img-dark.png"
 import imageLight from "../../images/hero-img-light.png"
 import { ThemeContext } from '../../ThemeContext';
 import { FaGithub, FaPlayCircle } from "react-icons/fa";
+import { GoArrowUpRight } from "react-icons/go";
 
 function Projects() {
     const { theme, toggleTheme } = useContext(ThemeContext);
@@ -48,7 +49,7 @@ function Projects() {
                                 rel="noopener noreferrer"
                             >
                                 <FaGithub />
-                                <span>Repository</span>
+                                Repository <GoArrowUpRight/>
                             </a>
                             
                         
@@ -61,7 +62,7 @@ function Projects() {
                                 rel="noopener noreferrer"
                             >
                                 <FaPlayCircle />
-                                Live Demo
+                                Live Demo <GoArrowUpRight/>
                             </a>
                         </div>
                     
@@ -105,7 +106,7 @@ function Projects() {
                             rel="noopener noreferrer"
                         >
                             <FaGithub />
-                            <span>Repository</span>
+                            Repository <GoArrowUpRight/>
                         </a>
                         
                     
@@ -118,7 +119,7 @@ function Projects() {
                             rel="noopener noreferrer"
                         >
                             <FaPlayCircle />
-                            Live Demo
+                            Live Demo <GoArrowUpRight/>
                         </a>
                     </div>
 
@@ -158,7 +159,7 @@ function Projects() {
                             rel="noopener noreferrer"
                         >
                             <FaGithub />
-                            <span>Repository</span>
+                            Repository <GoArrowUpRight/>
                         </a>
  
                         <a 
@@ -168,7 +169,7 @@ function Projects() {
                             rel="noopener noreferrer"
                         >
                             <FaPlayCircle />
-                            Live Demo
+                            Live Demo <GoArrowUpRight/>
                         </a>
                     </div>
 

@@ -77,9 +77,10 @@
 
 
 .buttons-container{
-    width: 350px;
+    width: 400px;
     display: flex;
     flex-direction: row;
+    font-size: 20px;
     gap: 1.5rem;
     align-items: center;
     padding: 2rem;
@@ -87,7 +88,8 @@
     justify-content: space-between;
 }
 
-.buttons-container button {
+.buttons-container a {
+    text-decoration: none;
     color: var(--main);
     background-color: var(--bg);
     border-radius: 20px;
@@ -96,7 +98,7 @@
     border: 2px solid var(--main);
 }
 
-.buttons-container button:hover {
+.buttons-container a:hover {
     transform: scale(1.1);
     color: var(--bg);
     background-color: var(--main);
