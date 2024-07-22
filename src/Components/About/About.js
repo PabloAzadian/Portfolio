@@ -7,7 +7,7 @@ import { FaWindowMinimize } from "react-icons/fa6";
 
 function About() {
   return (
-    <section className='about'>
+    <section className='about' id='about'>
         <div className='container'>
             <div className='about-terminal'>
                 <div className='window-tab'>

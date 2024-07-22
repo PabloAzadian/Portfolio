@@ -8,7 +8,7 @@ import { FaMapPin, FaGithub, FaLinkedin, FaFileDownload } from "react-icons/fa";
 function Hero() {
     const { theme, toggleTheme } = useContext(ThemeContext);
   return (
-    <div className='container'>
+    <div className='container' id='home'>
         <div className='hero-upper-container'>
             <div className='hero-text'>
                 <h3>Pablo Azadian</h3>

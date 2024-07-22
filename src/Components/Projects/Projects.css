@@ -9,12 +9,13 @@
 
 .project {
     display: flex;
+    flex-direction: row;
     gap: 2rem;
     max-width: 70%;
     margin: auto;
     text-align: left;
     border: 2px solid var(--main);
-    padding: 1rem;
+    padding: 2rem;
     border-radius: 20px;
     margin-bottom: 2rem;
     color: var(--main);
@@ -28,10 +29,15 @@
     
 }
 
-.footer{ 
+.header{ 
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+.header h2 {
+    margin: 0;
 }
 
 .technologies-container {
@@ -51,11 +57,35 @@
 }
 .links-container {
     display: flex;
+    flex-direction: row;
     gap: 1rem;
 }
-.links-container a {
-    
+
+.link-button {
+    padding: 0.5rem;
+    border: 1px solid var(--main);
+    border-radius: 20px;
+    font-size: 20px;
+    line-height: 30px;
+    cursor: pointer;
     text-decoration: none;
     color: var(--main);
-    font-size:36px
+}
+
+
+.link-button svg{
+    text-decoration: none;
+    color: var(--main);
+    font-size:30px;
+    margin-right: 10px;
+}
+
+.link-button:hover {
+    transform: scale(1.1);
+    color: var(--bg);
+    background-color: var(--main);
+}
+
+.link-button:hover svg {
+    color: var(--bg);
 }
