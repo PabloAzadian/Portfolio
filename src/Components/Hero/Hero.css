@@ -83,7 +83,7 @@
     font-size: 20px;
     gap: 1.5rem;
     align-items: center;
-    padding: 2rem;
+    padding: 1.5rem;
     margin-bottom: 15px;
     justify-content: space-between;
 }
@@ -93,7 +93,7 @@
     color: var(--main);
     background-color: var(--bg);
     border-radius: 20px;
-    padding: 1rem;
+    padding: 0.7rem;
     font-weight: 600;
     border: 2px solid var(--main);
 }
@@ -109,15 +109,17 @@
 @media  screen and (max-width: 1200px) {
     .tech-stack-container{
         max-width: 500px;
+        display: flex;
+        flex-direction: column;
     }
     
     .skill{
-        width: 50px;
+        width: 60px;
         font-size: x-small;
     }
 
     .skill img {
-        width: 35px;
+        width: 40px;
     }
     
 }
@@ -176,7 +178,7 @@
 
 }
 
-@media screen and (max-width: 492px) {
+@media screen and (max-width: 566px) {
     .hero-img img{
         height: 200px;
     }
