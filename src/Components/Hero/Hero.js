@@ -65,14 +65,14 @@ function Hero() {
                             <p>HTML</p>
                         </div>
                         <div className='skill'>
-                            <img src="https://skillicons.dev/icons?i=css" alt="CSS" className='skill-icon' />
-                            <p>CSS</p>
+                            <img src="https://skillicons.dev/icons?i=ts" alt="CSS" className='skill-icon' />
+                            <p>Typescript</p>
                         </div>
                     </div>
                     <div className='d-flex flex-row'>
-                    <div className='skill'>
-                            <img src="https://skillicons.dev/icons?i=ts" alt="CSS" className='skill-icon' />
-                            <p>Typescript</p>
+                        <div className='skill'>
+                            <img src="https://skillicons.dev/icons?i=css" alt="CSS" className='skill-icon' />
+                            <p>CSS</p>
                         </div>
                         <div className='skill'>
                             <img src="https://skillicons.dev/icons?i=tailwind" alt="CSS" className='skill-icon' />
